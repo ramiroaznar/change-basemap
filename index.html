@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>How to change the basemap in a CARTO dashboard</title>
+    <meta name=viewport content="width=device-width initial-scale=1">
+    <link href="http://cartodb.com/favicon.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="themes/css/deep-insights.css" />
+    <link rel="stylesheet" href="themes/css/myapp.css" />
+    <script src="scripts/deep-insights.uncompressed.js"></script>
+    <script src="scripts/myapp.js"></script>
+</head>
+
+<body>
+
+    <div style="top: 40px;bottom: auto;position: absolute;z-index: 100;left: 105px;">
+        <button class="CDB-Button CDB-Button--primary CDB-Button--big" id="dark">
+            <span class="CDB-Button-Text CDB-Text is-semibold CDB-Size-medium">Dark Matter</span>
+        </button>
+        <button class="CDB-Button CDB-Button--primary CDB-Button--big" id="positron">
+            <span class="CDB-Button-Text CDB-Text is-semibold CDB-Size-medium">Positron</span>
+        </button>
+    </div>
+
+    <!--    Dashboard container -->
+    <div class="Dashboard-canvas" id="dashboard"></div>
+
+</body>
+
+</html>
